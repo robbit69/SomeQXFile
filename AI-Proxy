@@ -1,0 +1,12 @@
+# NAME: AIProxy 项目
+# 用于翻一些常见的和 AI 的 API 相关的墙
+
+HOST,cdn.auth0.com,OpenAI
+HOST,challenges.cloudflare.com,OpenAI
+HOST,openaiapi-site.azureedge.net,OpenAI
+HOST-SUFFIX,ai.com,OpenAI
+HOST-SUFFIX,identrust.com,OpenAI
+HOST-SUFFIX,openai.com,OpenAI
+
+# API 部分
+HOST-SUFFIX,api.openai-sb.com,AIProxy
